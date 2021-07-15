@@ -1,0 +1,216 @@
+body{
+    background-image: linear-gradient(90deg, blue, purple);
+    margin: 0px;
+
+}
+
+
+html {
+    padding: 0px;
+}
+            
+.head1{
+    text-align: center;
+    color: brown;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 2.5em;
+}
+.first {
+    
+    display: flex;
+    justify-content: center;              
+}
+            
+.set {                
+    width: cover;
+    opacity: 0.8;
+    border-right: 2px solid orange;
+    background-image: url(img/img1.jpg);
+    
+    background-size: cover;            
+    padding-left: 38%;
+    box-shadow: 5px 10px 18px dimgray;
+}
+            
+.content {
+    width: auto;
+    padding : 3%;
+}
+
+.pieces {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.pieces ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav h2 {
+    margin: 0px;
+    padding-top: 8px;
+    padding-left: 20px;
+    color: brown;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  
+}
+
+.first img {
+    margin: 15px;
+    border-radius: 30px;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #111;
+}
+
+.history {
+    
+    text-align: center;
+    
+}
+
+.set li {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.set ul {
+    list-style-type: none;
+}
+
+.set a {
+    color: black;
+    font-size: 20px;
+}
+
+.foot {
+    display: flex;
+    flex-direction: row;
+    background-color: #333;
+    justify-content: space-around;
+    color: antiquewhite;
+}
+
+.foot p {
+    margin-left: 30px;
+}
+.pla  {
+    color: aliceblue;
+    text-decoration-color: aliceblue;
+}
+
+.pla a {
+    color: aliceblue;
+}
+
+.regis {
+    border: 3px solid gray;
+    padding-left: 30px;
+    margin: 20px;
+    
+    opacity: 0.95;
+    color: white;
+}
+
+.regis h3 {
+    color: darkgrey;
+}
+
+.imgpla {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 4%;
+}
+
+.rulef {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+
+.pla {
+    text-align: center;
+    border: 5px solid gray;
+    margin: 20px;
+    opacity: 0.75;
+}
+
+.pla h2 {
+    color: aqua;
+}
+
+.imgpla  img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.imgpla div {
+    text-align: center;
+}
+
+.rules {
+    text-align: center;
+    border: 5px solid gray;
+    margin: 20px;
+    opacity: 0.85;
+}
+
+.rules h2 {
+    color: aqua;
+}
+
+.rules  img{
+    width: 300px;
+    height: 300px;
+}
+
+.rules div {
+    text-align: center;
+}
+
+.history h2 {
+    text-decoration: underline;
+    color:currentColor;
+    font-family:sans-serif;
+}
+
+.history b {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    font-size: 1.2em;
+}
