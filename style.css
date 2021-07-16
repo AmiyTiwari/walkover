@@ -18,7 +18,8 @@ html {
 .first {
     
     display: flex;
-    justify-content: center;              
+    flex-direction: row;
+    justify-content: space-around;
 }
             
 .set {                
@@ -213,4 +214,10 @@ html {
     text-decoration: underline;
     text-decoration-style: dotted;
     font-size: 1.2em;
+}
+
+@media screen and (max-width :400px) {
+    .set {
+        background-image: url(img/img4.jpg);
+    }
 }
