@@ -243,7 +243,7 @@ html {
         float: left;
     }
     
-    .piece ul {
+    .pieces ul {
         flex-direction: column;
     }
     
@@ -265,5 +265,11 @@ html {
     .imgpla  img{
         width: 50%;
         height: 40%;
+    }
+}
+
+@media  screen and (max-width:300px){
+    .nav{
+        display: none;
     }
 }
