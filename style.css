@@ -239,6 +239,14 @@ html {
         font-size: 75%;
     }
     
+    .navin div {
+        float: left;
+    }
+    
+    .piece ul {
+        flex-direction: column;
+    }
+    
     
     .set {
         background-image: url(img/img4.jpg);
