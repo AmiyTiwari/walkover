@@ -235,6 +235,10 @@ html {
         flex-direction: column;
     }
     
+    .navin{
+        font-size: 15px;
+    }
+    
     
     .set {
         background-image: url(img/img4.jpg);
