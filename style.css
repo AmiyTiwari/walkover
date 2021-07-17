@@ -219,5 +219,20 @@ html {
 @media screen and (max-width :600px) {
     .set {
         background-image: url(img/img4.jpg);
+        padding-left: 1%;
+    }
+    .imgpla {
+        flex-direction: column;
+    }
+    .rulef {
+        flex-direction: column;
+    }
+    .rules img {
+        width: 50%;
+        height: 40%;
+    }
+    .imgpla  img{
+        width: 50%;
+        height: 40%;
     }
 }
