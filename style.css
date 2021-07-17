@@ -245,12 +245,13 @@ html {
     
     .pieces ul {
         flex-direction: column;
+        padding-left: 10px;
     }
     
     
     .set {
         background-image: url(img/img4.jpg);
-        padding-left: 1%;
+        padding: 0px;
     }
     .imgpla {
         flex-direction: column;
